@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-gemini-blue: #1a73e8;
+  --color-gemini-bg: #f8fafd;
+  --color-gemini-sidebar: #f0f4f9;
+  --color-gemini-text: #1f1f1f;
+  --color-gemini-border: #dee2e6;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-gemini-text font-sans antialiased;
+  }
+}
+
+.gemini-gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-purple-500 to-red-400;
+}
