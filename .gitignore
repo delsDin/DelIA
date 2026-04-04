@@ -58,3 +58,6 @@ Thumbs.db
 frontend/dist/
 frontend/build/
 backend/__pycache__/
+
+
+*.dels
