@@ -31,7 +31,7 @@ const INITIAL_SUGGESTIONS = [
   { icon: '🎨', text: "Aide-moi à rédiger un e-mail de remerciement professionnel" },
   { icon: '💡', text: "Explique-moi le concept de l'informatique quantique simplement" },
   { icon: '🎮', text: "Jouons au jeu de rôle informatique !" },
-  { icon: '📅', text: "Établis-moi un programme sur DES-T pour les congés et mets-le dans mon calendrier" },
+  { icon: '📅', text: "Établis-moi un emploi du temps" },
 ];
 
 const CodeBlock: React.FC<{ children: string; language: string | undefined }> = ({ children, language }) => {
