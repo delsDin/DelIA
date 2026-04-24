@@ -36,7 +36,8 @@ MODEL_MAPPING = {
     'Llama 3.2 1B': 'llama3.2:1b',
     'Gemma 2 2B': 'gemma2:2b',
     'Qwen 2.5 1.5B': 'qwen2.5-coder:1.5b',
-    'Qwen 2.5 7B': 'qwen2.5-coder:7b'
+    'Qwen 2.5 7B': 'qwen2.5-coder:7b',
+    'Gemma 4 e2B': 'gemma4:e2b'
 }
 
 @app.get("/models")
